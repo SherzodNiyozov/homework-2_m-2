@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+
+body {
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1157px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+header {
+  background: linear-gradient(113deg, rgba(198,1,97,1) 33%, rgba(77,48,80,1) 71%);
+}
+
+.box {
+  background-image: url(../img/phone-display.png);
+  background-repeat: no-repeat;
+  background-position: 750px 100px;
+}
+
+.headerminu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 29px;
+
+}
+
+.headerminu__list {
+  display: flex;
+  gap: 30px;
+}
+
+.headerminu__item {
+  cursor: pointer;
+}
+
+.headerminu__link {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.momentum {
+  padding-top: 226px;
+}
+
+.momentum__theme {
+  font-size: 80px;
+  line-height: 80px;
+  color: #fff;
+}
+
+.momentum__text {
+  font-size: 30px;
+  line-height: 44px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+button {
+  background: #FC0A7E;
+  border-radius:  3px;
+  padding: 20px 40px;
+  border: 1px solid #FC0A7E;
+  margin-bottom: 227px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: none;
+}
+
+.button__link {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fff;
+}
+
+.nullam {
+  background: #1B1B1B;
+}
+
+.nullam__text {
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #A8A8A8;
+  padding-top: 100px;
+}
+
+.nullam__theme {
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+  max-width: 607px;
+  margin: 30px auto 55px;
+}
+
+.container__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 80px;
+}
+
+.aenian__inner--text {
+  font-size: 12px;
+  line-height: 20px;
+  color: #A8A8A8;
+  margin-bottom: 30px;
+}
+
+.aenian__inner--theme {
+  font-size: 38px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 70px;
+  width: 291px;
+}
+
+.aenian__inner--texts {
+  font-size: 16px;
+  line-height: 30px;
+  color: #6B6B6B;
+  width: 306px;
+}
+
+.activity__list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 159px;
+  align-items: center ;
+}
+
+.activity__item {
+  text-align: center;
+  max-width: 371px;
+}
+
+.activity__theme {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  margin-top: 40px;
+}
+
+.acrivity__text {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #6B6B6B;
+  margin-top: 17px;
+}
+
+.number__list {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 163px;
+  align-items: center 
+}
+
+.number__item {
+  text-align: center;
+  max-width: 193px;
+}
+
+.number__numbers {
+  font-size: 59px;
+  line-height: 90px;
+  text-align: center;
+  color: #333333;
+}
+
+.number__text {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.quote__box {
+  text-align: center;
+  padding-top: 162px;
+}
+
+.quote__text {
+  max-width: 700px;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #6B6B6B;
+  margin: 66px auto 17px;
+}
+
+.quote__box--inner {
+  display: flex;
+  width: 301px;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 88px;
+}
+
+.quote__box--inner>p {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #6B6B6B;
+}
+
+.quote__box--inner>hr {
+  width: 30px;
+  height: 1px;
+  background: #D3D3D3;
+  border-radius: 0px;
+}
+
+.quote__box--inner>strong {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #6B6B6B;
+}
+
+.quote__sellect {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 142px;
+}
+
+.quote__sellect--first {
+  width: 7px;
+  height: 7px;
+  background-color: #222;
+}
+
+.quote__sellect--second {
+  width: 7px;
+  height: 7px;
+  background-color: rgba(34, 34, 34, 0.4);
+}
+
+
+.phons__box {
+  margin-top: 118px;
+  text-align: center;
+}
+
+.getstarted {
+  background: linear-gradient(113deg, rgba(198,1,97,1) 33%, rgba(77,48,80,1) 71%);
+  padding-top: 165px;
+  display: flex;
+  justify-content: center;
+}
+
+.getstarted__theme {
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.getstarted__buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.imail {
+  background-color: #1B1B1B;
+  padding-top: 129px;
+}
+
+.imail__theme {
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+}
+
+.imail__text {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #6B6B6B;
+  margin-top: 20px;
+}
+form {
+  text-align: center;
+  position: relative;
+
+}
+
+input {
+  bottom: none;
+  outline: navajowhite;
+  padding:20px 250px 20px 10px;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-bottom: 126px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+form>button {
+  position: absolute;
+  right: 350px;
+  bottom: -100px;
+}
+
+
+.button--end:hover {
+  color: #FC0A7E;
+}
+
+footer {
+  background: #1B1B1B;
+  padding-top: 20px;
+  padding-bottom: 69px; 
+}
+
+.footer__box {
+  text-align: center;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 29px;
+}
+
+.footer__link {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #6B6B6B;
+}
